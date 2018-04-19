@@ -9,7 +9,7 @@ import Base from '../../views/backend/Base.vue';
 Vue.use(VueRouter);
 
 const routes = [
-    { path: '/cms/:adminPrefix/:lang/plugins/accio/instant-articles', component: Base },
+    { path: globalProjectDirectory + '/:adminPrefix/:lang/plugins/accio/instant-articles', component: Base },
 ];
 
 const router = new VueRouter({

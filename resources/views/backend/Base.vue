@@ -324,8 +324,8 @@
             var global = this;
 
             // translations
-            this.trans.__changeAppinfo = this.__('Accio.InstantArticles::base.change_app_info');
-            this.trans.__backToConfiguration = this.__('Accio.InstantArticles::base.back_to_configuration');
+            this.trans.__changeAppinfo = this.__('Accio.InstantArticles.base.change_app_info');
+            this.trans.__backToConfiguration = this.__('Accio.InstantArticles.base.back_to_configuration');
 
             // init fb sdk
             // Execute FB SDK
