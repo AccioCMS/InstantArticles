@@ -1,0 +1,39 @@
+{
+  "title": "Accio Instant Article",
+  "namespace": "Accio/InstantArticles",
+  "organization": "Accio",
+  "baseURL": "accio/instant-articles",
+  "description ": "The official Accio Instant Article plugin",
+  "version": "1.0.0",
+  "icon": "pencil",
+
+  "author" : [
+    {
+      "name" : "Accio LLC",
+      "email": "faton.sopa@manaferra.com"
+    }
+  ],
+
+  "dependencies" : [
+    "xAuthor\\xPlugin"
+  ],
+
+  "panels": {
+    "post": {
+      "name": "post",
+      "path": "Post.vue",
+      "placement": "all"
+    }
+  },
+
+  "mix": {
+    "app": "./plugins/Accio/InstantArticles/resources/assets/js/app.js",
+    "public": "./plugins/Accio/InstantArticles/public/js"
+  },
+
+  "permissions":{
+    "defaultPermissions": [
+      "create", "read","update", "delete"
+    ]
+  }
+}

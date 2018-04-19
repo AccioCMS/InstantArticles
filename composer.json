@@ -1,0 +1,11 @@
+{
+    "name": "acciocms/instant-articles-plugin",
+    "description": "The official Accio Instant Article plugin",
+    "keywords": ["accio", "instant-articles", "facebook"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "apache/log4php": "^2.3.0",
+        "facebook/facebook-instant-articles-sdk-php": "^1.7"
+    }
+}

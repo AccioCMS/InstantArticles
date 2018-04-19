@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa5dba48-34cb-4e29-b356-a14b8153a401" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/InstantArticles.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Plugin.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/InstantArticlesController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/models/InstantArticles.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/example.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/store.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/rules/general.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/backend/Base.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/frontend/example.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/panels/Post.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/routes/backend/base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/routes/frontend/base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/CODE_OF_CONDUCT.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/docker-compose.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/docs/QuickStart.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/phpcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/phpunit.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Client/Client.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Client/ClientException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Client/Helper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Client/InstantArticleStatus.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Client/ServerMessage.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Ad.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Analytics.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Anchor.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/AnimatedGIF.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Audible.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Audio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Author.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Blockquote.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Bold.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Caption.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/ChildrenContainer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Cite.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Div.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Element.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/ElementWithHTML.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Emphasized.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Footer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/FormattedText.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/GeoTag.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/H1.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/H2.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/H3.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Header.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Image.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/InstantArticle.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/InstantArticleInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Interactive.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Italic.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/LineBreak.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/ListElement.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/ListItem.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Map.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Paragraph.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Pullquote.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/RelatedArticles.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/RelatedItem.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Slideshow.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Small.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/SocialEmbed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Span.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Sponsor.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/TextContainer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Time.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements/Video.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Parser/Parser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Parser/instant-articles-rules.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/AbstractGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/ChildrenGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/ConstantGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/DateGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/ElementGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/ExistsGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/FragmentGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/GetterFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/IntegerGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/JSONGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/MultipleElementsGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/NextSiblingElementGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/NextSiblingGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/StringGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters/XpathGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Logs/TransformerLog.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/AdRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/AnalyticsRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/AnchorRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/AudioRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/AuthorRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/BlockquoteRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/BoldRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/CaptionCreditRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/CaptionRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/Compat/JetpackSlideshowRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/ConfigurationSelectorRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/EmphasizedRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/FooterRelatedArticlesRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/FooterRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/FooterSmallRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/GeoTagRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/GlobalRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/H1Rule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/H2Rule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/HeaderAdRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/HeaderImageRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/HeaderKickerRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/HeaderRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/HeaderSubTitleRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/HeaderTitleRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/IgnoreRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/ImageInsideParagraphRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/ImageRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/InstantArticleRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/InteractiveInsideParagraphRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/InteractiveRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/ItalicRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/LineBreakRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/ListElementRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/ListItemRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/MapRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/ParagraphFooterRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/ParagraphRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/PassThroughRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/PullquoteCiteRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/PullquoteRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/RelatedArticlesRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/RelatedItemRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/Rule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/SlideshowImageRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/SlideshowRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/SocialEmbedRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/SponsorRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/TextNodeRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/TimeRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/VideoRule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Transformer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Warnings/DeprecatedRuleWarning.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Warnings/InvalidSelector.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Warnings/NoRootInstantArticleFoundWarning.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Warnings/UnrecognizedElement.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Warnings/ValidatorWarning.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Warnings/validator_warning_messages.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Validators/InstantArticleValidator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Validators/Type.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Client/ClientExceptionTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Client/ClientTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Client/HelperTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/AdTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/AnalyticsTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/AudioTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/AuthorTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/BlockquoteTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/CaptionTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/CiteTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/FooterTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/GeoTagTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/H1Test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/H2Test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/H3Test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/HeaderTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/ImageTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/InstantArticleTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/InteractiveTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/ListElementTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/MapTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/ParagraphTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/PullquoteTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/RelatedArticlesTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/SlideshowTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/SponsorTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/TimeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/Validators/InstantArticleValidatorTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/Validators/TypeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/VideoTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Parser/ParserTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Parser/instant-article-example-ads.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Parser/instant-article-example-no-timezone.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Parser/instant-article-example-nyc-timezone.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Parser/instant-article-example-standard-timezone.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Parser/instant-article-example.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/CustomHTMLTransformerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Example/SimpleTransformerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Example/simple-ia.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Example/simple-rules.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Example/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/GeneratorTrait.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/GlobalHtml/GlobalTransformerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/GlobalHtml/global-ia.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/GlobalHtml/global-rules.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/GlobalHtml/global.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Rules/AuthorRuleTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Rules/PullquoteRuleTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Rules/RuleTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/TransformerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Warnings/InvalidSelectorTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/custom-html-ia.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/custom-html-rules.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/custom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/instant-article-example-multibyte.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/instant-article-example-nonutf8.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/instant-article-example.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/Util/BaseHTMLTestCase.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/phpcs.xml.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessTokenMetadata.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Authentication/OAuth2Client.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookAuthenticationException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookAuthorizationException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookClientException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookOtherException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookResponseException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookResumableUploadException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookSDKException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookServerException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookThrottleException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Facebook.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FacebookApp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FacebookBatchRequest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FacebookBatchResponse.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FileUpload/FacebookFile.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FileUpload/FacebookResumableUploader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FileUpload/FacebookTransferChunk.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FileUpload/FacebookVideo.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/FileUpload/Mimetypes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Birthday.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphAchievement.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphAlbum.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphApplication.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphCoverPhoto.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphEdge.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphEvent.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphGroup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphList.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphLocation.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphNodeFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphObject.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphObjectFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphPage.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphPicture.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphSessionInfo.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/GraphUser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookCanvasHelper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookJavaScriptHelper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookPageTabHelper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookSignedRequestFromInputHelper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Http/GraphRawResponse.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Http/RequestBodyInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Http/RequestBodyMultipart.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Http/RequestBodyUrlEncoded.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/HttpClients/FacebookCurl.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/HttpClients/FacebookCurlHttpClient.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/HttpClients/FacebookGuzzleHttpClient.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/HttpClients/FacebookHttpClientInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/HttpClients/FacebookStream.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/HttpClients/FacebookStreamHttpClient.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/HttpClients/HttpClientsFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/HttpClients/certs/DigiCertHighAssuranceEVRootCA.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PersistentData/FacebookMemoryPersistentDataHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PersistentData/PersistentDataFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PersistentData/PersistentDataInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PseudoRandomString/OpenSslPseudoRandomStringGenerator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PseudoRandomString/PseudoRandomStringGeneratorFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PseudoRandomString/PseudoRandomStringGeneratorInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PseudoRandomString/PseudoRandomStringGeneratorTrait.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PseudoRandomString/RandomBytesPseudoRandomStringGenerator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/PseudoRandomString/UrandomPseudoRandomStringGenerator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/SignedRequest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Url/FacebookUrlDetectionHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Url/FacebookUrlManipulator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/Url/UrlDetectionInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/autoload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/facebook/graph-sdk/src/Facebook/polyfills.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/CssSelector.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/CssSelectorConverter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ExceptionInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ExpressionErrorException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/InternalErrorException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ParseException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/SyntaxErrorException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/AbstractNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/AttributeNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/ClassNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/CombinedSelectorNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/ElementNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/FunctionNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/HashNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/NegationNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/NodeInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/PseudoNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/SelectorNode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/Specificity.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/CommentHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/HandlerInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/HashHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/IdentifierHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/NumberHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/StringHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/WhitespaceHandler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Parser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/ParserInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Reader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/ClassParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/ElementParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/HashParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Token.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/TokenStream.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/Tokenizer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerPatterns.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/CssSelectorConverterTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/CssSelectorTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/AbstractNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/AttributeNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/ClassNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/CombinedSelectorNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/ElementNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/FunctionNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/HashNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/NegationNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/PseudoNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/SelectorNodeTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/SpecificityTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/AbstractHandlerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/CommentHandlerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/HashHandlerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/IdentifierHandlerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/NumberHandlerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/StringHandlerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/WhitespaceHandlerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/ParserTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/ReaderTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/ClassParserTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/ElementParserTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/EmptyStringParserTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/HashParserTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/TokenStreamTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/ids.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/lang.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/shakespear.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/TranslatorTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/AbstractExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/AttributeMatchingExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/CombinationExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/ExtensionInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Translator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/TranslatorInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/XPathExpr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/phpunit.xml.dist" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>manaferra/</find>
+      <find>manaferra</find>
+      <find>Manaferra</find>
+      <find>vendor\\manaferra</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Accio</replace>
+      <replace>accio/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/views/backend/Base.vue" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/models/InstantArticles.php" />
+        <option value="$PROJECT_DIR$/Plugin.php" />
+        <option value="$PROJECT_DIR$/config.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/facebook/facebook-instant-articles-sdk-php" />
+      <path value="$PROJECT_DIR$/vendor/facebook/graph-sdk" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="InstantArticles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InstantArticles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InstantArticles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InstantArticles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InstantArticles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InstantArticles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InstantArticles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InstantArticles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/Base.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="296" column="139" lean-forward="false" selection-start-line="296" selection-start-column="139" selection-end-line="296" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="482" column="28" lean-forward="true" selection-start-line="482" selection-start-column="28" selection-end-line="482" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/InstantArticles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
